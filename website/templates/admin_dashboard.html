@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Admin Dashboard{% endblock %}
+{% block content %}
+<h2>Admin Dashboard</h2>
+<a class="btn btn-success mb-3" href="{{ url_for('views.admin_create_book') }}">Add New Book</a>
+<table class="table">
+<thead><tr><th>Title</th><th>Author</th><th>Stock</th><th>Actions</th></tr></thead>
+<tbody>
+{% for book in books %}
+<tr>
+<td>{{ book.title }}</td>
+<td>{{ book.author }}</td>
+<td>{{ book.stock }}</td>
+<td>
+<a class="btn btn-warning btn-sm" href="{{ url_for('views.admin_edit_book', id=book.id) }}">Edit</a>
+<form method="post" action="{{ url_for('views.admin_delete_book', id=book.id) }}" style="display:inline;" onsubmit="return confirm('Delete this book?');">
+<button class="btn btn-danger btn-sm">Delete</button>
+</form>
+</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+{% endblock %}

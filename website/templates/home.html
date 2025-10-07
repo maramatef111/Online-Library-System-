@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center">
+<div>
+<h1>Welcome, {{ user.name }}</h1>
+<p class="lead">Search and borrow books — track your borrows and return with one click.</p>
+</div>
+<div>
+<div class="card p-3">
+<h5>API Token</h5>
+<p>Use this to call the API: <code>POST /api/token</code></p>
+</div>
+</div>
+</div>
+{% endblock %}

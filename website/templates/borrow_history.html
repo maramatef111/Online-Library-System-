@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}My Borrows{% endblock %}
+{% block content %}
+<h2>Borrow History</h2>
+<table class="table">
+<thead><tr><th>Book</th><th>Borrowed At</th><th>Returned</th><th>Action</th></tr></thead>
+<tbody>
+{% for b in borrows %}
+<tr>
+<td>{{ b.book.title }}</td>
+<td>{{ b.borrowed_at.strftime('%Y-%m-%d %H:%M') }}</td>
+<td>{{ 'Yes' if b.returned else 'No' }}</td>
+<td>
+{% if not b.returned %}
+<!-- Web return form uses JWT in a production app; here we allow web return to simplify -->
+<form method="post" action="{{ url_for('views.return_book', borrow_id=b.id) }}">
+<button class="btn btn-primary btn-sm">Return</button>
+</form>
+{% else %}
+{{ b.returned_at.strftime('%Y-%m-%d %H:%M') if b.returned_at else '-' }}
+{% endif %}
+</td>
+</tr>
+{% else %}
+<tr><td colspan="4">No borrow records.</td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endblock %}
