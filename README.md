@@ -66,6 +66,11 @@ pip install -r requirements.txt
 
 
 
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/maramatef111/Online-Library-System-.git
+cd Online-Library-System
 
 
 
