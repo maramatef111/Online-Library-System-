@@ -6,13 +6,15 @@ A Flask-based web application for managing library resources, borrowing, and ret
 
 ## Features
 
-### web interface 
-- 📖 Browse available books with search by title or author
-- 📥 Borrow books via web forms (session-based)
-- 📤 Return books via web forms
-- 👩‍💻 Admin dashboard to add, edit, or delete books
-- 🔐 User authentication (login/signup/logout)
-- ⚡ Friendly UI 
+- User Authentication: Login, signup, and logout.
+
+- Book Management: Admin can add, edit, or delete books.
+
+- Borrowing System: Users can borrow and return books easily.
+
+- JWT Token API: Secure API access for external requests.
+
+- SQLite Database: Simple and portable database for development.
 
 ### API (JWT-based)
 - Get JWT token for authentication
@@ -33,7 +35,8 @@ cd Online-Library-System
 
 2. **Create and Activate a Virtual Environment**
 
-  ON Windows 
+  ON Windows
+
 ```bash
   python -m venv venv
 venv\Scripts\activate
@@ -45,8 +48,15 @@ pip install -r requirements.txt
 
 4. **Run the Application**
 
-```bash
-python main.py
+pip install -r requirements.txt
+
+
+5. **Login Credentials (Seeded Data)**
+
+| Role  | Email                                         | Password |
+| ----- | --------------------------------------------- | -------- |
+| Admin | [admin@example.com](mailto:admin@example.com) | admin123 |
+| User  | [maram@example.com](mailto:maram@example.com) | password |
 
 
 
