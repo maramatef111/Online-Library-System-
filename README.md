@@ -48,7 +48,9 @@ pip install -r requirements.txt ```
 
 4. **Run the Application**
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 5. **Login Credentials (Seeded Data)**
