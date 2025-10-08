@@ -29,9 +29,10 @@ A Flask-based web application for managing library resources, borrowing, and ret
 To run this project locally, follow these steps:
 
 1. **Clone the repository**
+   
 ```bash
 git clone https://github.com/maramatef111/Online-Library-System-.git
-cd Online-Library-System ```
+cd Online-Library-System 
 
 2. **Create and Activate a Virtual Environment**
 
@@ -44,7 +45,9 @@ venv\Scripts\activate ```
 3. **Install Required Packages**
 
 ```bash
-pip install -r requirements.txt ```
+
+pip install -r requirements.txt 
+
 
 4. **Run the Application**
 
