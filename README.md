@@ -71,6 +71,15 @@ pip install -r requirements.txt
 
 ![image alt](https://github.com/maramatef111/Online-Library-System-/blob/0cbdca2dc6f8c54046c1a63d724ea48e9c0fd988/Admin%20Dashboard.png)
 
+![image alt](https://github.com/maramatef111/Online-Library-System-/blob/7c509ead29e0e288d5a91045d7220028e96a5edc/My%20Borrows%20admin.png)
+
+![image alt](https://github.com/maramatef111/Online-Library-System-/blob/7c509ead29e0e288d5a91045d7220028e96a5edc/signup.png)
+
+![image alt](https://github.com/maramatef111/Online-Library-System-/blob/7c509ead29e0e288d5a91045d7220028e96a5edc/user_books.png)
+
+
+![image alt](https://github.com/maramatef111/Online-Library-System-/blob/7c509ead29e0e288d5a91045d7220028e96a5edc/User%20borrows.png)
+
 
 
 
