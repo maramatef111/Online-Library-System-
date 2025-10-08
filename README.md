@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository**
 ```bash
 git clone https://github.com/maramatef111/Online-Library-System-.git
-cd Online-Library-System
+cd Online-Library-System ```
 
 2. **Create and Activate a Virtual Environment**
 
@@ -39,16 +39,16 @@ cd Online-Library-System
 
 ```bash
   python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate ```
 
 3. **Install Required Packages**
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt ```
 
 4. **Run the Application**
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 5. **Login Credentials (Seeded Data)**
