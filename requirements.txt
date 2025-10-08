@@ -1,6 +1,6 @@
-flask
-flask_sqlalchemy
-flask_login
-pyjwt
-werkzeug
-python-dotenv
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+PyJWT==2.8.0
+Werkzeug==3.0.3
+python-dotenv==1.0.1
