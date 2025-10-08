@@ -68,6 +68,10 @@ pip install -r requirements.txt
 
 
 
+![image alt](Admin Dashboard.png)
+
+
+
 
 
 
