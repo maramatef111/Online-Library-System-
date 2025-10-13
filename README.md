@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ### 4. Run the Application
 
 ```
-pip install -r requirements.txt
+python main.py
 ```
 
 
