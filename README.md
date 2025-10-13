@@ -57,9 +57,29 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+Open your browser and go to:
+ http://127.0.0.1:5000
+ From there, you can:
+ 
+ - View the home page
 
+- Log in or sign up
 
-### 5. Login Credentials (Seeded Data)
+- Browse and borrow books
+
+- Access the admin dashboard (if admin user)
+
+### 5. Frontend (FE) Setup 
+The frontend of this project is built using Flask templates (HTML, CSS).
+All the user interfaces are located inside:
+
+```
+website/templates/   → contains HTML pages  
+website/static/      → contains CSS and static files
+```
+Once the Flask server is running, you can access the frontend directly in your browser.
+
+### 6. Login Credentials (Seeded Data)
 
 | Role  | Email                                         | Password |
 | ----- | --------------------------------------------- | -------- |
